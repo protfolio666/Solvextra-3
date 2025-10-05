@@ -485,34 +485,34 @@ animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
         <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           <!-- Contact Form -->
           <div class="glass rounded-2xl p-8">
-            <form class="space-y-6">
+            <form id="contactForm" class="space-y-6">
               <div class="grid md:grid-cols-2 gap-6">
                 <div>
                   <label class="block text-sm font-medium text-stone-300 mb-2">Full Name</label>
-                  <input type="text" placeholder="Enter your full name" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
+                  <input type="text" id="name" name="name" required placeholder="Enter your full name" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
                 </div>
 
                 <div>
                   <label class="block text-sm font-medium text-stone-300 mb-2">Email Address</label>
-                  <input type="email" placeholder="Enter your email" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
+                  <input type="email" id="email" name="email" required placeholder="Enter your email" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
                 </div>
               </div>
 
               <div class="grid md:grid-cols-2 gap-6">
                 <div>
                   <label class="block text-sm font-medium text-stone-300 mb-2">Company</label>
-                  <input type="text" placeholder="Enter your company name" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
+                  <input type="text" id="company" name="company" placeholder="Enter your company name" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
                 </div>
 
                 <div>
                   <label class="block text-sm font-medium text-stone-300 mb-2">Phone Number</label>
-                  <input type="tel" placeholder="Enter your phone number" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
+                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
                 </div>
               </div>
 
               <div>
                 <label class="block text-sm font-medium text-stone-300 mb-2">Subject</label>
-                <select class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
+                <select id="subject" name="subject" required class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all">
                   <option>Select a Subject</option>
                   <option>Quality Audits Inquiry</option>
                   <option>Customer Experience Services</option>
@@ -524,15 +524,17 @@ animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
               <div>
                 <label class="block text-sm font-medium text-stone-300 mb-2">Message</label>
-                <textarea rows="5" placeholder="Tell us about your project or inquiry..." class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all resize-none"></textarea>
+                <textarea id="message" name="message" required rows="5" placeholder="Tell us about your project or inquiry..." class="w-full px-4 py-3 bg-stone-800/50 border border-stone-700 rounded-xl text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all resize-none"></textarea>
               </div>
 
               <div class="flex items-center space-x-3">
-                <input type="checkbox" id="newsletter" class="w-4 h-4 rounded border-stone-700 bg-stone-800/50 text-cyan-500 focus:ring-2 focus:ring-cyan-500">
+                <input type="checkbox" id="newsletter" name="newsletter" class="w-4 h-4 rounded border-stone-700 bg-stone-800/50 text-cyan-500 focus:ring-2 focus:ring-cyan-500">
                 <label for="newsletter" class="text-sm text-stone-400">Subscribe to our newsletter for updates and insights</label>
               </div>
 
-              <button type="submit" class="w-full py-3 px-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl text-white font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl">
+              <div id="formMessage" class="hidden text-sm p-3 rounded-lg"></div>
+
+              <button type="submit" id="submitBtn" class="w-full py-3 px-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl text-white font-medium hover:from-cyan-600 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl">
                 Send Message
               </button>
             </form>
@@ -694,6 +696,57 @@ animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
       const nextIndex = (currentIndex + 1) % cards.length;
       updateCards(nextIndex);
     }, 5000);
+
+    // Contact form handling
+    const contactForm = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessage = document.getElementById('formMessage');
+
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      formMessage.classList.add('hidden');
+      
+      const formData = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        company: document.getElementById('company').value,
+        phone: document.getElementById('phone').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value,
+        newsletter: document.getElementById('newsletter').checked
+      };
+      
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+          formMessage.textContent = 'Thank you! Your message has been sent successfully.';
+          formMessage.classList.remove('hidden', 'bg-red-500/20', 'text-red-400');
+          formMessage.classList.add('bg-green-500/20', 'text-green-400');
+          contactForm.reset();
+        } else {
+          throw new Error(result.error || 'Failed to send message');
+        }
+      } catch (error) {
+        formMessage.textContent = 'Sorry, there was an error sending your message. Please try again.';
+        formMessage.classList.remove('hidden', 'bg-green-500/20', 'text-green-400');
+        formMessage.classList.add('bg-red-500/20', 'text-red-400');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Message';
+      }
+    });
   </script>
 
 </body></html>

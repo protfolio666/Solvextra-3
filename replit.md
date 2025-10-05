@@ -37,8 +37,14 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-05**: Integrated SendGrid email API for contact form
+  - Connected SendGrid integration via Replit connectors
+  - Created /api/contact endpoint to handle form submissions
+  - Contact form now sends emails to contactus@solvextra.com
+  - Added success/error feedback messages to form
+  - Updated testimonial job titles to reflect actual client positions
 - **2025-10-05**: Updated branding and color scheme
-  - Replaced logo with custom cyan/blue gradient logo
+  - Replaced logo with custom cyan/blue gradient logo (increased to 12x12px)
   - Updated all color gradients from orange/pink to cyan/blue theme
   - Updated buttons, progress bars, and accent colors to match new branding
 - **2025-10-05**: Initial setup in Replit environment
