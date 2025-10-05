@@ -7,10 +7,16 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from urllib.parse import parse_qs
 
-PORT = 5000
+PORT = int(os.environ.get('PORT', 5000))
 HOST = "0.0.0.0"
 
 def get_sendgrid_credentials():
+    api_key = os.environ.get('SENDGRID_API_KEY')
+    from_email = os.environ.get('SENDGRID_FROM_EMAIL')
+    
+    if api_key and from_email:
+        return {'api_key': api_key, 'from_email': from_email}
+    
     hostname = os.environ.get('REPLIT_CONNECTORS_HOSTNAME')
     x_replit_token = None
     
@@ -20,7 +26,7 @@ def get_sendgrid_credentials():
         x_replit_token = 'depl ' + os.environ.get('WEB_REPL_RENEWAL')
     
     if not x_replit_token:
-        raise Exception('X_REPLIT_TOKEN not found')
+        raise Exception('SendGrid credentials not configured. Please set SENDGRID_API_KEY and SENDGRID_FROM_EMAIL environment variables.')
     
     url = f'https://{hostname}/api/v2/connection?include_secrets=true&connector_names=sendgrid'
     headers = {

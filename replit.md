@@ -37,6 +37,12 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-05**: Prepared for Railway deployment
+  - Added Procfile, railway.json, runtime.txt, requirements.txt
+  - Updated server.py to support both Replit and Railway PORT configuration
+  - Modified SendGrid integration to support direct env vars for Railway
+  - Created README_RAILWAY.md with deployment instructions
+  - Updated "Get Demo" button to scroll to contact form
 - **2025-10-05**: Integrated SendGrid email API for contact form
   - Connected SendGrid integration via Replit connectors
   - Created /api/contact endpoint to handle form submissions
@@ -52,3 +58,6 @@ The project is configured to run automatically via the workflow system:
   - Created Python HTTP server with cache control headers
   - Configured workflow for port 5000
   - Added .gitignore for Python files
+
+## Deployment
+The project is ready to deploy on Railway. See README_RAILWAY.md for deployment instructions.
