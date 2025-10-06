@@ -37,6 +37,15 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-06**: Enhanced website with butter-smooth animations
+  - Added smooth scrolling behavior with CSS scroll-behavior and scroll-snap
+  - Implemented Intersection Observer API for scroll-triggered animations
+  - Enhanced card/tab transitions with cubic-bezier easing (0.34, 1.56, 0.64, 1)
+  - Added hardware acceleration with transform: translateZ(0) and will-change
+  - Optimized for iOS and mobile with backface-visibility and tap-highlight removal
+  - Applied smooth hover transitions to navigation and buttons
+  - Added staggered fade-in animations with automatic delays
+  - Implemented smooth scrolling for anchor links across both pages
 - **2025-10-06**: Created "Our Work" portfolio page
   - Showcased E-Commerce, Fintech, and Hyperlocal/Logistics projects
   - Added detailed process gaps identified (14+) across categories
