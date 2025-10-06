@@ -37,6 +37,13 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-06**: Created "Our Work" portfolio page
+  - Showcased E-Commerce, Fintech, and Hyperlocal/Logistics projects
+  - Added detailed process gaps identified (14+) across categories
+  - Documented SOPs recommended (Wrong Delivery, OTP Security, Post-Policy Returns, etc.)
+  - Included revenue impact analysis and protection measures
+  - Added critical process insights with metrics
+  - Integrated page into main navigation
 - **2025-10-05**: Prepared for Railway deployment
   - Added Procfile, railway.json, runtime.txt, requirements.txt
   - Updated server.py to support both Replit and Railway PORT configuration
