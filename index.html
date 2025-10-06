@@ -214,8 +214,114 @@ transform: scale(1.05) translateZ(0);
 .hover-scale {
 transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+
+/* Mobile Menu Styles */
+.mobile-menu {
+position: fixed;
+top: 64px;
+right: -100%;
+width: 280px;
+height: calc(100vh - 64px);
+background: rgba(15, 23, 42, 0.98);
+backdrop-filter: blur(20px);
+border-left: 1px solid rgba(148, 163, 184, 0.1);
+transition: right 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+z-index: 40;
+overflow-y: auto;
+}
+
+.mobile-menu.active {
+right: 0;
+box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu-overlay {
+position: fixed;
+inset: 0;
+background: rgba(0, 0, 0, 0.6);
+opacity: 0;
+pointer-events: none;
+transition: opacity 0.3s ease;
+z-index: 39;
+}
+
+.mobile-menu-overlay.active {
+opacity: 1;
+pointer-events: all;
+}
+
+/* Hamburger Menu Animation */
+.hamburger {
+width: 24px;
+height: 20px;
+position: relative;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.hamburger span {
+width: 100%;
+height: 2px;
+background: #e2e8f0;
+border-radius: 2px;
+transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+transform-origin: center;
+}
+
+.hamburger.active span:nth-child(1) {
+transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+opacity: 0;
+transform: translateX(20px);
+}
+
+.hamburger.active span:nth-child(3) {
+transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Page Transition Animation */
+@keyframes pageTransitionIn {
+from {
+opacity: 0;
+transform: translateX(20px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+
+@keyframes pageTransitionOut {
+from {
+opacity: 1;
+transform: translateX(0);
+}
+to {
+opacity: 0;
+transform: translateX(-20px);
+}
+}
+
+.page-transition {
+animation: pageTransitionIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+.text-4xl { font-size: 2rem; }
+.text-5xl { font-size: 2.5rem; }
+.px-8 { padding-left: 1rem; padding-right: 1rem; }
+.py-8 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+}
 </style></head>
 <body class="min-h-screen bg-slate-900 text-slate-100 selection:bg-cyan-500/20 overflow-x-hidden"><iframe src="https://my.spline.design/nexbotrobotcharacterconcept-kLwr8f6hgKgaa5gmU6oB00Si" frameborder="0" width="100%" height="100%" class="fixed w-full h-screen" id="aura-spline"></iframe>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 right-0 z-50 bg-stone-900/80 backdrop-blur-xl border-b border-stone-700/50">
@@ -227,16 +333,36 @@ transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
           </div>
           <span class="text-lg font-semibold tracking-tight">SolveXtra</span>
         </div>
+        
+        <!-- Desktop Menu -->
         <div class="hidden md:flex items-center space-x-8 text-sm opacity-0 animate-fade-in" style="animation-delay: 0.2s; animation-fill-mode: forwards;">
           <a href="#home" class="text-stone-400 hover:text-stone-100 transition-colors">Home</a>
           <a href="#services" class="text-stone-400 hover:text-stone-100 transition-colors">Services</a>
-          <a href="our-work.html" class="text-stone-400 hover:text-stone-100 transition-colors">Our Work</a>
+          <a href="our-work.html" class="text-stone-400 hover:text-stone-100 transition-colors page-link">Our Work</a>
           <a href="#contact" class="text-stone-400 hover:text-stone-100 transition-colors">Contact</a>
           <a href="#contact" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg text-white text-sm font-medium hover:from-cyan-600 hover:to-blue-700 transition-all">Get Demo</a>
         </div>
+
+        <!-- Mobile Hamburger -->
+        <button class="md:hidden hamburger opacity-0 animate-fade-in" id="mobileMenuBtn" style="animation-delay: 0.2s; animation-fill-mode: forwards;" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </div>
   </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="flex flex-col p-6 space-y-6">
+      <a href="#home" class="text-stone-300 hover:text-cyan-400 transition-colors text-lg font-medium mobile-menu-link">Home</a>
+      <a href="#services" class="text-stone-300 hover:text-cyan-400 transition-colors text-lg font-medium mobile-menu-link">Services</a>
+      <a href="our-work.html" class="text-stone-300 hover:text-cyan-400 transition-colors text-lg font-medium mobile-menu-link page-link">Our Work</a>
+      <a href="#contact" class="text-stone-300 hover:text-cyan-400 transition-colors text-lg font-medium mobile-menu-link">Contact</a>
+      <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg text-white text-center font-medium hover:from-cyan-600 hover:to-blue-700 transition-all mobile-menu-link">Get Demo</a>
+    </div>
+  </div>
 
   <main class="relative z-10 min-h-screen flex pt-16 px-6 items-center justify-center" id="home">
     <div class="max-w-7xl w-full mx-auto px-8 py-8">
@@ -899,6 +1025,54 @@ transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
     document.querySelectorAll('.animate-fade-in').forEach((el, index) => {
       el.style.animationDelay = `${index * 0.1}s`;
     });
+
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+    const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
+
+    function toggleMobileMenu() {
+      mobileMenuBtn.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+      mobileMenuOverlay.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    }
+
+    function closeMobileMenu() {
+      mobileMenuBtn.classList.remove('active');
+      mobileMenu.classList.remove('active');
+      mobileMenuOverlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+    mobileMenuOverlay.addEventListener('click', closeMobileMenu);
+
+    // Close mobile menu when clicking a link
+    mobileMenuLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        closeMobileMenu();
+      });
+    });
+
+    // Page Transition Animation for external links
+    document.querySelectorAll('a.page-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const href = this.getAttribute('href');
+        
+        // Add transition out animation
+        document.body.style.animation = 'pageTransitionOut 0.3s ease-out';
+        
+        setTimeout(() => {
+          window.location.href = href;
+        }, 300);
+      });
+    });
+
+    // Add page transition on load
+    document.body.classList.add('page-transition');
   </script>
 
 </body></html>
