@@ -13,9 +13,14 @@ A modern, interactive landing page for SolveXtra, a company providing profession
 ## Project Structure
 ```
 /
-├── index.html           # Main landing page
-├── server.py           # Python HTTP server
-└── replit.md          # Project documentation
+├── index.html                    # Main landing page
+├── our-work.html                 # Portfolio/case studies page
+├── case-study-fraud.html         # Payment fraud investigation case study
+├── case-study-metrics.html       # Metric manipulation detection case study
+├── case-study-journeys.html      # High-effort customer journeys case study
+├── case-study-process.html       # Knowledge base audit case study
+├── server.py                     # Python HTTP server
+└── replit.md                     # Project documentation
 ```
 
 ## Features
@@ -38,6 +43,16 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-07**: Created detailed case study pages with full stories, graphs, and visuals
+  - Built 4 comprehensive case study pages (fraud, metrics, journeys, process)
+  - Each page includes full narrative, visual data charts, and professional stock images
+  - Added "Learn More" buttons on Our Work page linking to detailed case studies
+  - Payment Fraud Investigation: Shows coordinated fraud network (₹40K+ protected)
+  - Metric Manipulation Detection: Exposes 29% artificial inflation with comparison charts
+  - High-Effort Customer Journeys: Maps 72% cases >10 days with real journey examples
+  - Knowledge Base Audit: Documents 14+ process gaps with conflicting information
+  - All pages maintain generic client naming while showcasing real achievements
+  - Integrated stock images for cybersecurity, analytics, journey mapping, and documentation
 - **2025-10-07**: Enhanced "Our Work" portfolio with real case studies
   - Removed brand-specific references (replaced "IMS_V2" with "internal ticketing system")
   - Added 4 compelling case study cards with visual impact metrics
