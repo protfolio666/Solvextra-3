@@ -1,0 +1,171 @@
+SolveXtra QMCHighlights
+BRAND
+1
+
+What’s Inside
+Highlights and Lowlights
+Initiatives , Highlights and Growth Trajectory 
+Performance Snapshot – June’25
+Rebuttals Statistics
+2
+
+Highlights and Lowlights
+Highlights  
+Lowlights  
+✅One new partner added with 4 new LOBs onboarded. Bandwidth managed within existing team
+
+✅ 6 long-pending customer issues (each with over 30+ interactions) were expedited and resolved after being highlighted by the QA team. These cases were from critical LOBs – Email and Social Media.
+
+✅ Low rebuttal reversal rate of 0.39%, indicating strong audit accuracy and process control
+❌ Team faced delays in ID creation for new LOBs, resulting in no audits post-training
+
+❌ Calibration sessions between partner and SolveXtra have not resumed. Only one session conducted in the entire month.
+
+❌ No L2-level rebuttals raised in the month. Engagement and discussions with partners have come to a halt
+Support Required
+Monthly Calibrations- Calibrations to be conducted at least once a month for all LOBs to ensure alignment and clarity on audit parameters
+
+Expansion of Audit Scope - Compliance and Process audits need to be initiated. Currently, only BAU audits are being executed; expansion is required for holistic quality control
+3
+
+Critical Long-Pending Resolutions 6 long-pending customer cases from critical LOBs like Email and Social Media , marked by repeated failed interactions, were flagged and fast-tracked by the QA team, enabling swift resolution and improved customer experience.
+
+Each had 30 to 100+ customer interactions, some unresolved for weeks
+No prior red flags by ops/support — escalated only after QA review
+Helping with Compliance – QRC Hygiene QRC Fatal Error Rate Improved by ~63% from May to June – dropping from 4.22% to 1.55%, despite an increase in audit volume by 9%.
+May (QRC): 592 audits conducted with 4.22% fatal errors (25 fatals)
+June (QRC): 646 audits conducted with 1.55% fatal errors (10 fatals)
+⚠ High Background Noises Highlighted – Inbound 
+14 inbound calls flagged for excessive background noise.
+Feedback shared with agents + supervisors for immediate correction.
+Result: Better call hygiene & CX consistency
+Improvement Trend: Sharp Drop in Info Seeker Fatals through QA Actionable In May, QA team flagged Info Seeker fatals as a key concern 
+May (36.8% of all fatals- 172 fatals of Infoseeker out of 467 overall fatals.
+ Fatals dropped to just 13.3% in June (86 fatals out of 645 Overall Fatal count)
+Highlights and Initiatives-June’25
+⚠ Red Flag Cases Identified
+3 Red flag cases of rudeness/unprofessional behavior /Chat Avoidance were shared in June ‘25.
+Action pending from partner’s team 
+4
+
+Power BI Desktop
+Audit Count
+5051
+
+Audit Score
+70.54
+
+Wk-1
+Wk 2
+  70.20	  68.92     
+Wk-3
+   71.38
+Wk-4
+  72.03
+Week Wise CQ % EFL Ecosystem
+Fatal Count
+821
+
+
+Performance Snapshot – June’25
+Fatal %
+20%
+
+5
+
+Rebuttals Statistics-June’25
+Synopsis:
+Rebuttals: 58 total (~1.4% of audits).
+
+Invalid Audits: 41 marked invalid; just 1 case under BOD
+
+QA Mistakes: Overall QA accuracy remained high, with only 16 mistakes across the month, keeping the average reversal rate low at 0.39%.
+LOB
+Total Audits
+Total Rebuttals Received
+Invalid
+QA Mistake
+BOD
+Reversal %
+Wk-1
+1140
+36
+22
+14
+ 
+1.23%
+Wk-2
+1087
+10
+9
+1
+ 
+0.09%
+Wk-3
+859
+6
+5
+ 
+1
+0.00%
+Wk-4
+965
+6
+5
+1
+ 
+0.10%
+Grand Total
+4051
+58
+41
+16
+1
+0.39%
+LOB
+Total Audits
+Total Rebuttals Received
+Invalid
+QA Mistake
+BOD
+Reversal %
+Chat
+156
+5
+5
+ 
+ 
+0.00%
+Email
+592
+16
+ 
+16
+ 
+2.70%
+Inbound
+2667
+36
+35
+ 
+1
+0.00%
+Social Media
+636
+1
+1
+ 
+ 
+0.00%
+Grand Total
+4051
+58
+41
+16
+1
+0.39%
+6
+
+Thank You 
+Let's create something amazing together
+7

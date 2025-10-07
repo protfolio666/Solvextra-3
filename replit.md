@@ -38,6 +38,15 @@ The project is configured to run automatically via the workflow system:
 3. **Consulting Services** - Strategic advisory and digital transformation (+58% process efficiency)
 
 ## Recent Changes
+- **2025-10-07**: Enhanced "Our Work" portfolio with real case studies
+  - Removed brand-specific references (replaced "IMS_V2" with "internal ticketing system")
+  - Added 4 compelling case study cards with visual impact metrics
+  - Showcased fraud detection ($40K+ protected, 28 cases validated)
+  - Highlighted metric manipulation detection (29% inflation exposed)
+  - Displayed customer journey analysis (72% cases >10 days resolution)
+  - Featured process gap identification (14+ gaps documented)
+  - Added summary statistics section with key performance metrics
+  - All case studies use generic names while showcasing real achievements
 - **2025-10-06**: Optimized favicon and SEO for Google indexing
   - Added meta description tags for better search results
   - Added multiple favicon sizes (48x48, 96x96, 180x180) for Google compatibility

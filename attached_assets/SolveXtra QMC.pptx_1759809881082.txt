@@ -1,0 +1,372 @@
+New Work Ways
+12 May, 2025
+By SolveXtra
+1
+
+Our Understanding of your requirement
+CTU currently is at 6%. Target is 3% 
+Resolution rate is an important KPI on your charter
+First Call resolution is our primary focus 
+Cut down on partner resources. Already reduced from 18K to 9K. Further reduction to 5K 
+Technology intervention and automation to be introduced in the system 
+Journey level audits instead of Transaction audits. Business insights driven auditing process
+Check the checker process to continue.
+Every touchpoint must add value
+Internal team to start working with different departments to run RR projects
+Contact Center KPIs will undergo a change. QC will not be part of RnP. Instead, they will also be measured on Resolution Rate & CTU contribution. 
+
+
+01
+02
+03
+04
+05
+06
+07
+Redefining Operational Excellence for the New Work Ways
+Customer Journey Analytics Platform
+Customer Journey Analytics - RCA Approach 
+Introducing Peer - to - Peer Coaching concept
+Inter partner Insight exchange
+Conversational Accuracy Audit
+QA & Brand Risk Control
+Studying Escalations for Process Improvement
+
+Customer Journey Analytics Platform 
+How will this product support New Work Ways
+
+End-to-End Journey Mapping
+Cross-Functional Visibility
+Multi-Interaction Tracking Made Easy
+Root Cause Visibility Across Interactions
+End-to-End Case Lifecycle Management
+Complexity Simplified with Intelligent Structuring
+Customizable Reason Trees
+Actionable Insights for Leadership
+
+
+Studying Escalations for Process Improvement
+15 recent escalated cases studied across Logistics, Policy, Technical, Process, Agent, and Installation categories
+Analysis covered both customer-facing symptoms and internal process limitations
+Methodology:
+Data Source: Escalation logs from the past 20 days. June Cases only. Interaction  and incident level details studies and resolution workflows challenged. 
+Root Cause Identification: Categorized based on primary and sub-reasons. Mapped escalation triggers to internal process behaviors
+Process Discovery: Identified L1/L2 hand-off delays, system limitations, and policy rigidities. 
+Recommendation: Proposed actionable, role-specific interventions. Solutions aimed at improving FCR, reducing TAT, and enhancing CX
+Change Required : current process studies only incident level data instead of customer journey. 
+
+15 Escalation Cases - Logistics
+Cases with issues related to Logistics - 9 out of 15 - 60%
+
+Primary Causes 
+Delivery Issues - Delay in delivery, Delay in shipping
+Return Related - Replacement Reflecting on Hold
+Delivery Executive behavior- Resulting in Social media issue
+Sample Case Details - XXXXXXXXXXXX
+Order created on 23rd may. Order delivery date 28th. May. Large appliance order. Faulty product delivered. Customer escalated {2nd June} through multiple channels including twitter. Return pickup due for 9th June was cancelled by logistics without informing customer. Customer escalated on twitter. Escalation team created another ticket for return, return date 19th June & Replacement Date as 4-July.
+
+Total Customer Effort (in days): 42 days
+Total RR responses - 3 {all No}
+L1 team doesn’t  have empowerment to talk to Logistics. 
+Takeaway: cancellation without informing customer results in cusotmer dissatisfaction
+Partner
+
+15 Escalation Cases - Logistics
+Cases with issues related to Logistics - 9 out of 15 - 60%
+
+Sample Case Details - XXXXXXXXXX
+Customer ordered an electronic product. Order value approx. 5K. Issue 1 - Different agents informed them the product was still in transit or had reached the wrong location, and the delay was due to courier issues. The product was lost in transit, and the replacement got cancelled without informing the customer. This caused more frustration, especially since they were on medical leave and couldn’t afford further delays. They also faced issues updating their phone number and delivery address.
+
+Customer in his/her email mentioned multiple issues, including product not working, all orders being delayed. Couldn’t find any “Return / Replacement order” or any documentation by agent to resolve this part of customer complaint. 
+
+Total Customer Effort (Total touchpoints): 22 calls over 21 days. Total 18 handoffs during this process. 
+Takeaway: Define attempt threshold for marking a case as “High Priority” and triggering relationship management. Queue sizing and SOPs need further discussion.
+
+Escalation Cases - Table
+8
+
+Customer Journey Analytics - RCA Approach 
+In the past two weeks, our team independently analyzed 60 cases to develop an RCA (Root Cause Analysis) approach tailored to Brand’s new ways of working.
+
+The next four slides offer a quick overview of the surprising insights we uncovered during this exercise including ...
+Handoff gaps across channels & departments
+Gaps around actual response and resolution times against expected SLAs.
+Common drop-off points or repeat contact loops
+Reasons for escalation or dissatisfaction
+How issues or queries move across teams.
+Policy & Process Alignment
+Technology Experience
+
+Artificial Inflation of Resolution Rate
+Total Customer Journey Studied - 60 
+Total RR response in these cases - 600 {Yes - 161 , No - 439}
+Resolution Rate - {161/600 = 27%}
+Unethically Gained Responses - 45 {22+23}
+Unethically Gained RR% on Yeses - {45/161 - 28%}
+Actual Resolution Rate -  {116/555 = 21%}
+Unethically Gained Response % - {{27% -21%) / 21%} = 29%}
+Sample Case Details - TechM {Noida}
+In one customer journey, 22 “Yes” responses were logged against a single cancelled order. NOTE : Order is from 2018 & is the only order on that customer’s account. 
+Further review revealed 25 incidents with 94 taggings done. 
+All these taggings within just 2 agents. 
+All incidents were marked “solved,” 
+Zero Calls to customer on this Case 
+Takeaway: Resolution Rate looks overstated by nearly 29% due to tampering.
+
+Tech Issues : Survey Trigger Algoritham
+Journey Node : Pre-Delivery 
+Survey Trigger Flaws: 
+ In case ID XXXXXXXX, the system shows only two resolution attempts between April 13th and 15th. However, 10 survey responses marked as "No" were recorded during this time, indicating either tech issue or process issue in survey triggering process or in survey capture process
+Total Customer Journey Studied - 60 
+Journeys with Trigger Flaws - 3
+% Survey Trigger flaw - 3/60 = 5%
+Extra NOs received in these two cases - {8 + 2 + 2 = 12}
+Total NOs including Extra - 29
+Actual NOs - (29 - 12) = 17
+Extra "NOs" responses account for approximately 41.4% of "NOs" for journeys with trigger flaws. 
+Takeaway: Resolution Rate calculations are compromised by underlying system issues. 41.4% found in samples
+
+Insightful Findings : Customer Journey Analysis
+High Value Product not being delivered with OTP delivery feature resulting in following issues  
+Journey Node : Pre-Delivery 
+Delivery Executive closed the case as “Delivered” without delivering
+When customer asked for “Tamil” agent support, agent didn’t transfer or arranged call back. 
+Customer effort : 21 Calls; over 30-day period. Minimum 21 handoffs as every time new agent was answering
+Agents continuously marked issue resolved after “Control Tower” update. Not believing customer.
+Agents continuously marked issue resolved after “Control Tower” update. Not believing customer.
+Takeaway: Why are Delivery Executives marking product delivered without delivering?
+
+Need further discussion with Brand team
+The furniture was never recovered, and Brand issued a refund without locating the order.
+
+Insightful Findings : Customer Journey Analysis
+Delivery Executive took OTP over the call, did not deliver product but marked it as delivered
+Journey Node : Pre-Delivery 
+Delivery Executive took 6 days to finally deliver the product although OTP was taken on call on the 1st day
+Because OTP was given by customer CC team continuously closed case by saying “product was delivered”
+Customer effort : 19 Calls; over 6-day period. Minimum 18 handoffs as every time new agent was answering
+KNE transfer was made twice and KNE tried to resolve the issue by taking Delivery Executive and customer in conference
+Delivery Executive delayed the product delivery
+Takeaway: How can we ensure that customer stops sharing OTP over phone. how can stop Delivery Executives marking product delivered without delivering?
+
+Need further discussion with Brand team
+
+Insightful Findings : Customer Journey Analysis
+Text box 
+Wrong Disposition
+Not able to change disposition
+Customer effort
+Customer lost hope and stopped calling
+Because COD order no refund was possible
+Delivery Executive disposed a COD order as “Cancelled” after delivering
+CC team not able to change disposition and continously giving resolution basis “Cancelled” status
+Customer called 19 times, total 18 handoffs as different agents attended this call
+Customer sent photographs, order id details explained that he paid for the order but no resolution
+In case it would have been a “Prepaid order” then logistics could have cancelled it and then customer would have received refund
+Issue 1
+Issue 2
+Issue 3
+Issue 4
+Issue 4
+
+01
+02
+03
+04
+05
+06
+07
+Total 60 Customer Journeys Audited on SolveXtra . 
+Each Case tells a different Story. 
+all data is available on SolveXtra 
+Each Journey is monitored keeping following in mind
+Total Customer Efforts - Pain experienced
+Total Handoffs - How is customer journey broken
+Agent-level limitations and scope for system manipulation to boost KPIs.
+Process level fixes that needs urgent attention
+Customer Value in last quarter Vs. Customer effort in particular journey and its impact
+Varied  journey Nodes studied 
+
+Date, Week, Month, Agent level Analysis available for each problem statement
+
+Key Patterns - Customer Effort Table
+The cumulative % distribution in the resolution time clearly shows that 72% of issues take more than 10 days to resolve, and 21% even stretch beyond 25 days. This is a strong indicator of high customer effort, especially in emotionally sensitive journey nodes like Returns, Refunds, and Post-Delivery.
+
+Date, Week, Month, Agent level Analysis available for each problem statement
+
+Key Patterns - Customer Journey Break Points 
+Total journeys studies - 60 
+Node - Refund Related
+Issues list
+
+Date, Week, Month, Agent level Analysis available for each problem statement
+
+Key Patterns - Customer Journey Break Points 
+Total journeys studies - 60 
+Node - Post Delivery, Pre Delivery, Refund Related
+Issues list given below
+
+01
+02
+03
+Resolution Rate 
+Peer to Peer Review Methodology
+The Why – Challenges & Risk that Brand might {will} face in Distributed Partner, processes and workflow environment. 
+The How – SolveXtra proposal to manage this complexity and how Four-Step Pyramidal Framework will help along with Peer Reviews
+ The Impact – Tangible Benefits & Wins that can be expected
+
+The How – SolveXtra proposal to manage this complexity by introducing Peer to Peer Reviews
+Adults learn best through observation and hands-on practice. Peer-to-peer reviews turn every agent into a quality analyst and a coach within a focused, practical scope.
+What is Peer to Peer Review
+How
+Each agent is assigned one peer case daily—from the same team, process, or line of business—to review and provide constructive feedback to colleague.
+How will this help 
+Agents are no longer just executors—they’re active contributors to improvement initiatives, helping Brand foster a culture of quality conversations across the network.
+
+ The Impact – Tangible Benefits & Wins that can be expected
+Culture shift: Agents learn from peers, not just supervisors. Peer learning is the best form of learning as there is more acceptability & will to learn
+Metric that will move
+More Ground Reporting: Nothing beats ground-level insights—'doers' know best. With agents submitting one review a day, Brand gains 5,000 frontline observations daily—rich, real-time input straight from the field.
+Scalability
+Real-Time Adaptability
+Empowerment of Agents
+Faster Problem Resolution 
+Boosted Engagement and Ownership
+
+Proposal 
+Use SAAs Platform which can help in Peer-to-Peer review process
+Use SAAS platform SolveXtra  for Customer journey assignment instead of just transaction monitoring. 
+Assignment 
+Flexible workflows to ensure digitized close-looping of peer discussions and documentation 
+Peer to Peer feedback loop 
+Brand Management CAPA Loop
+Revised SolveXtra  platform for intelligent & actionable reporting
+
+01
+02
+03
+Resolution Rate 
+Inter Partner Insight Exchange
+Why Inter-Partner Insight Exchange? (The 'Why')
+Principal’s Role – Laying the Foundation (The 'How')
+Tangible Benefits You Can Expect (The 'Impact')
+
+Why Inter-Partner Insight Exchange? (The 'Why')
+Unlocking Collective Intelligence in a Distributed Setup
+Partners learn from each other's high-performing teams and replicate successful approaches across the network.
+🔄 Cross-Pollination of Best Practices
+👁 Broader Visibility Across Ecosystem
+Eliminates silos by enabling real-time insights across partners, geographies, and processes.
+🎯 Improved Accuracy in Process Adherence Monitoring
+Reduces biases or internal blind spots through external peer observations.
+🧠 Shared Ownership of Quality
+🔄 Scalable & Self-Sustaining Model
+
+Principal’s Role – Laying the Foundation (The 'How')
+         SolveXtra is natural enabling arm for Brand
+🧩 Partner & Process Mapping, 
+SolveXtra will ensure who reviews whom (Partner A ↔ Partner B), and which LOBs /processes fall under the scope.
+🛠 Standardization of Review Frameworks
+SolveXtra will ensure all partners use the same definitions, templates, and analysis rubrics.
+🧑‍💻 Technology Support
+SolveXtra to become a common digital platform for reviews, feedback loops, dashboards, and audit trails.
+📊 Calibration & Governance
+SolveXtra Customer Journey Analytics team will become the Governance arm
+
+Tangible Benefits You Can Expect (The 'Impact')
+✅ >30% More Customer Journey’s Analyzed
+ 
+📈 Uplift in Resolution Rates
+ 
+🚀 Faster Process Maturity
+ 
+👥 Cultural Shift Toward Collaborative Excellence
+
+Proposal 
+You would need a Flexible partner to execute Inter Partner Insight Exchange Project. We would want to be that enabler
+In new work ways, partners will be moving to customer journey analysis. Each QA team will have “customer journey experts”. 
+Brand Responsibility
+Enable Brand with Digitized solution
+Support in execution
+Provide intelligent dashboards
+SolveXtra Responsibility
+Benefits
+Focus on Business output metric “Resolution Rate” from all angles. Be it frontline agent, Partner, Internal Network - All focused on Customer Journeys and Resolution Rates
+
+01
+02
+03
+Project <4000
+Conversational BOT Accuracy Audit
+Build - Build digitized platform for analysis documentation and intelligent reporting
+Operate - Use current workforce for a period of 6 -12 months to continuously audit 
+Upgrade & Transfer - continuously improve and then transfer to Brand team
+
+Are we helping any other market player in Bot Accuracy Journey?
+Yes- In their Bot Accuracy journey for the past 2 years. 
+
+Over time, we've become an integral part of their AI development team, actively contributing to the training, and refinement of multiple bots across various use cases using N8N.
+
+01
+02
+03
+Auto Policy & Procedural Analytics
+
+&
+
+Brand Risk Control Panel
+Our Capabilities
+POC Results 
+Cost Effective Solution
+
+Other Quick Solves 
+Are our agents delivering warm and courteous greetings that make customers feel valued? - CAST Risk 
+Is our CSAT being skewed due to unethical solicitation by our customer service agents ? – CSAT Risk 
+Are our agents requesting feedback surveys at the end of every transaction? Are they doing it for the appropriate transaction types, or even with already frustrated customers? – CSAT Risk 
+Are our agents providing appropriate reassurance to customers, helping to alleviate concerns and build trust during interactions? – CSAT Risk
+Are our agents' initiating calls with a clear and professional introduction, setting the right tone from the start? – CSAT Risk
+
+Other Quick Solves 
+Are our agents intentionally using sarcasm, potentially alienating or frustrating customers? – Brand Risk 
+Are our agents' exhibiting signs of rude behavior that could negatively impact the customer experience? – NPS Risk
+Are our agents adapting their language to match the one our customer is using?- Personalization 
+Are our agents following the proper hold protocol, only when it is needed? – Cost Optimization 
+Deploy system to accurately identify potential escalations – Brand Risk 
+
+4D - Analysis with Evidence details
+Layer 5:
+Layer 4:
+Layer 3:
+Layer 2:
+Layer 1:
+On Hierarchy
+On Time Period
+Evidence Trail
+On Interaction
+On Parameter
+
+4D -Analysis
+
+Automatic Advance Audit Form Maker
+
+Proposal 
+We are India’s Most Cost-Effective Speech To Text Analytics Solutions.
+Includes STT {speech to text} transcripts & associated reporting
+INR 0.40 Paisa per transaction
+Have already solved 48+ SOPs for Brand
+Proven Capability in SOP Solutioning
+Benefits
+Customer Journey Mapping + Peer to Peer Coaching + Partner Insights + SOP Insights  on a Single Platform
+
+Give us a Chance
+To Elevate your
+Business
+
+⚠️ Disclaimer
+This document is intended solely for demonstration purposes related to process gap identification methodologies used In quality management consulting by SolveXtra QMC.
+All internal names, links, and sensitive data have been fully anonymized or masked.
+The scenarios shown are generic examples inspired by real-world industry challenges and do NOT represent or disclose any proprietary or confidential Standard Operating Procedures (SOPs) of any organization.
+No customer data, intellectual property, or private business strategies are shared.
+This is a demonstration of professional capability and methodology by SolveXtra QMC, not a disclosure of internal processes from any former employer.
+If any issue arises, please contact us at:📧 contactus@solvextra.com
+

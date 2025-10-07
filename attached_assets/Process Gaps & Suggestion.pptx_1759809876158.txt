@@ -1,0 +1,364 @@
+Process Gap 1: Wrong Delivery Scenario on YXXX
+
+Scenario:- Product is marked as delivered but it is not delivered to the customer.
+
+Problem Statement: It is mentioned on YXXX to: Create a new incident and provide the TAT of 5 business days.
+
+Issue: Which is irrelevant, As the agent is supposed to share the TAT with the customer which reflects to him/her after escalating the issue on IMS_V2 path
+
+Suggestion Requesting you to please get this edited/removed.
+Link:- https://XXXXXXXXXXXXX/648897xxxxa9917
+
+Path:- KM Rollouts > Process Related > Return Action Override | Overview & Workflow > L1 PROCESS: WRONG DELIVERY
+
+
+Process insights shared - Jan’25 
+1
+
+Process Gap 2: Wrong Delivery Scenario on YXXX
+
+Scenario:- Product is marked as delivered but it is not delivered to the customer.
+
+Problem Statement: It is mentioned on YXXX to: Create a new incident and provide the TAT of 5 business days.
+
+Issue: The suggestion here is that the article only mentions raising a complaint but there is no timeline.
+
+Scenarios where customers come with concern after 10days or 30 days of delivery the product is Not Delivered but the Status is updated as Delivered agent supposed to raise the complain as per YXXX.
+
+Suggestion:- There should be a timeline before raising a complaint (Agent can raise the complaint till 7 days of delivery and there should be a service denial after 7 days)
+
+Link:- https://XXXXXXXXXXXXX
+
+Path:- KM Rollouts > Process Related > Return Action Override | Overview & Workflow > L1 PROCESS: WRONG DELIVERY
+Process insights shared - Jan’25 
+
+Process Gap 3: Open Box Delivery Scenario on YXXX
+
+Scenario:- Scenario is related to Open box delivery where the Article says that. This option (Open box delivery) is available only for 'F-Assured’ 
+
+Problem Statement: It is mentioned on YXXX :This option (Open box delivery) is available only for 'F-Assured’ and not applicable for Non-FBF
+
+Issue: Which is incorrect as the team has come across an order where the product is a Non-F-assured still it was delivered as Open Box Delivery. That proves that the article contains incorrect information. This article needs to be edited on YXXX as this is applicable for both category.
+
+Order Id:- OD3XXXXXXXXXXX
+
+Link:- https://XXXXXXXXXXXXX/5f5bxxxa36f5f
+
+Path:-KM Rollouts => Process Related => Open Box Delivery Process for (Non-Large category)
+Process insights shared - Jan’25 
+
+Process Gap 4: One Assist Article on YXXX 
+
+Scenario:- The customer must initiate a claim with One Assist by either using the One Assist Mobile application, accessing the online portal (www.oneassist.in), or contacting 1800 XXXXXX within 48 hours.
+
+Problem Statement: It is mentioned on YXXX :The Article says that the customer is supposed to connect with One Assist within 48 hrs., Here it is creating confusion.
+
+Suggestion: Information should be clear on YXXX that  since when will these 48hrs be counted and after 48 Hr. what will be the resolution or will it be a service denial.
+
+Link:- https://XXXXXXXXXXXXX/5fa59xxxxd7045
+
+Path:-KM RolloutsProcess RelatedOneAssist Service Plan For Appliance
+Process insights shared - Jan’25 
+
+Process Gap 5: Prexo/Exchange Related Article on YXXX 
+
+Scenario:- scenario involving ""Prexo/Exchange Related (Mobiles)"" where Customer contacts stating the details which are reflecting in invoice is invalid DE collected extra amount but the same is not reflecting/wrongly reflecting in invoice 
+
+Problem Statement: It is mentioned on YXXX :There is no timeline for customer to reach us. where customers come with concern after along time of delivery of the product stating the details which are reflecting in invoice is invalid 
+
+Suggestion-  There should be a timeline after delivery within return policy customer can contact and there should be a service denial if customer reaches us after post policy
+
+Incident Id-IN250XXXXXXXXX 
+
+Link:- https://XXXXXXXXXXXXX/66f91xxxxcc27bb
+
+Path:-KM RolloutsProcess RelatedPrexo/Exchange Related (Mobiles)
+Process insights shared - Jan’25 
+
+Process Gap 6: Return Related Article 
+
+Scenario:-  If customer returns with the same reason so the agent should create a return or do a service denial if there's an update (Sorry, the return request cannot be fulfilled by the seller as the courier service provider has confirmed the delivery of the order with the product being intact.) from the FRM.
+
+Problem Statement:  Due to lack of an article, we are not marking down the agent. 
+
+Issue: The Suggestion here is that the Agent should do a service denial.
+
+Suggestion- This article needs to be added on YXXX so that agent can follow the article and follow the service denial.
+
+Process insights shared - Jan’25 
+
+Process Gap 7 : COMPLETE MOBILE PROTECTION PLAN Article on YXXX 
+
+Scenario:- This is the conflicting information.  In scenarios involving" COMPLETE MOBILE PROTECTION PLAN " : "Where the customer wants to change the LCD, but YXXX mentions two different things.
+
+Problem Statement: It is mentioned on YXXX :There is two different information mentioned on YXXX Benefits details: It is mentioned when customer comes with concern of accidental or liquid damaged Motherboard, LCD/Screen Damage will be covered :Again it is mentioned on the same page What is not covered :    Any cosmetic damage not resulting in stoppage of or functioning/usage of the device - including but not limited to: Scratching, cracking and/or denting of the device body Minor damage/scratch on the device screen/LCD General Wear and Tear
+
+Suggestion- Article should be edited and information should be removed from the article so that everyone can follow one information for the related scenario.
+
+
+Link:- https://XXXXXXXXXXXXX/5ae716fxxxxe496
+
+Path:- KM RolloutsProcess RelatedLaunch of M-365: Complete Mobile & Tablet Protection Plan
+Process insights shared - Jan’25 
+
+Process Gap 8 :7 Days Service Center Replacement/Repair- Electronics Category on YXXX 
+
+Scenario:- his is the conflicting information.  In scenarios involving " 7 Days Service Center Replacement/Repair- Electronics Category- (Non-large and Non-Mobile products)" where Customer contacts within policy period for any reasons related to Defective Performance-related issues Dead on Arrival Quality issues.
+Problem Statement:  There are two different tagging's and information available on YXXX article Return Requested. One is  Tagging on SA: Suggested issue >> Service center related queries >> Service Center Related/Brand contact details enquiries, and 2nd is Suggested issues >> Customer product not eligible for return
+
+Suggestion- Article should be edited and one tagging needs to be updated in the YXXX article so that agent can follow according a correct tagging for the same and assist the customer.
+
+Link:- https://XXXXXXXXXXXXX/651c17axxxxx845d
+
+Path:- KM RolloutsProcess Related7 Days Service Center Replacement/Repair- Electronics Category- (Non-large and Non-Mobile products)
+Process insights shared - Jan’25 
+
+Process Gap 9: Address change Article on YXXX 
+
+Scenario:- scenario involving SOP mentioned in the Article “Process - Knowledge Pills > Address/Phone Number change” is not defined properly.  SOP Says “If NOT Shipped/OFD: Open Ekart Console>>Select an Override>>Change Delivery Address”.
+
+Problem Statement: It is mentioned on YXXX :If the product is not shipped and is in approved state and IMS DT is saying the product is not eligible for the address change then the agent is supposed to change it via the EKL console. But if the order is in approved state, then the Tracking ID will not be generated and Advisor won't follow the same. 
+
+Suggestion- This article needs to be updated for the scenarios where the Tracking ID is not available also there is no SOP available for the 3PL so this should also be updated.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/661664eb1be47a5587d4549f
+
+Path:-Process - Knowledge PillsAddress/Phone Number change
+Process insights shared - Jan’25 
+
+Process Gap 10 : Defective product Article 
+
+Scenario:-Customer  purchased a desktop and one of its parts is defective. The customer mentioned that he fixed the problem with the help of a local technician.
+
+Problem Statement:  The agent informed him on the call that he could continue to use the product and, if he faced any further issues, he could raise a return within the return policy. there should be a service denial for the return if the customer has received assistance from a local technician and has opened and fixed the product, as it no longer remains in the same condition as when it was delivered. Additionally, there is a possibility that the local technician may have replaced some parts of the product or damaged them internally. 
+
+Suggestion- Article should be added for this scenario stating that if the customer has had the product fixed by a local technician or attempted to fix it himself, the service should be denied. Only an authorized technician from FK/Jeeves should have that authority.
+
+
+
+Process insights shared - Jan’25 
+
+Process Gap 11: Address change Article on YXXX 
+
+Scenario:- scenario involving SOP mentioned in the Article “Process - Knowledge Pills > Address/Phone Number change” is not defined properly.  SOP Says “If NOT Shipped/OFD: Open Ekart Console>>Select an Override>>Change Delivery Address”.
+
+Problem Statement: It is mentioned on YXXX :If the product is not shipped and is in approved state and IMS DT is saying the product is not eligible for the address change then the agent is supposed to change it via the EKL console. But if the order is in approved state, then the Tracking ID will not be generated and Advisor won't follow the same. 
+
+Suggestion- This article needs to be updated for the scenarios where the Tracking ID is not available also there is no SOP available for the 3PL so this should also be updated.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/66xxxxx4x49f
+
+Path:-Process - Knowledge PillsAddress/Phone Number change
+Process insights shared - Jan’25 
+
+Process Gap 12: ASC Link on  YXXX 
+
+Scenario:- scenario where customer connected for the defective issue with the device for MOTOROLA and for this advisor shared the brand contact details for the MOTOROLA brand.
+
+Problem Statement:  Details are saying that this is only applicable for WhatsApp. “ -> https://en-in.support.motorola.com/app/flipkart -> Say Hi - WhatsApp chat : +91 8067916686 (English) / +91 8067916687 (Hindi)”, however in the steps it is mentioned that “The Customer should explain all ISSUE/ FAULT over call (Single or multiple) The brand technician might TROUBLESHOOT over call to resolve the issue which is incorrect as if the number is only applicable for WhatsApp, then why is it mentioned about call?, this needs to be corrected on YXXX. 	
+
+Suggestion- ASC link needs to be updated and information should be mention about the calling number or what's up number. 
+Link:-  https://script.google.com/XXXXXX
+Process insights shared - Jan’25 
+
+Process Gap 13: Status Check article on YXXX 
+
+Scenario:- Article name and the information in the article is not matching at all.
+
+Problem Statement: It is mentioned on YXXX The article name is “Delivery Executive unreachable”, it contains the info “Delivery executive (DE) may be travelling or assisting other customers”. If the DE is unreachable then it is not related to if he is travelling. Below is the suggested SOP. wish master Unreachable  The Wish master's number is out of network coverage, switched off, or unavailable. The call does not connect at all (no ringing or response). The reason could be network issues, phone turned off, or technical difficulties. 
+
+Suggestion- Suggested Update in Tool: Do not mention "Wish master might be traveling" as there is no confirmation of their status. Instead, state:  "The Wish master is currently unreachable. Please try again later."  Wish master Did Not Answer the Call The call rings, but the Wish master does not pick up 
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/661664eb1be47a5587d4549f
+
+Path:-Process - Knowledge PillsStatus Check: Promise Date not breachedOut for DeliveryOFD Day (SMS sent): Delivery Executive unreachable (Before 11 pm)
+
+Process insights shared - Jan’25 
+
+Process Gap 14:  Post Policy  article on YXXX 
+
+Scenario:- If no return request was made within the return policy period, a return can still be created if the customer reaches out within 3 days.
+Problem Statement: In YXXX article for post policy “no T&C are mentioned in which cases the return can be created. Hence the agent can create the return in any case beyond 3 days of the policy. But if we go in the L1 Process for the same article we see that there are some specific things mentioned in YXXX .” If the customer claims: that he/she attempted within policy via mobile app/Website but there was an error/the request was not going through there was an error while creating a return due to which the customer was asked to come back after some time by the agent requesting for an exception.
+
+Suggestion- Information (agent can create the return in any case beyond 3 days of the policy) should be removed or T&C should be updated also there is nothing mention on YXXX that agent needs to check any footprint just to confirm weather customer tried to create the return with in policy timeline or not so this should also be updated.
+
+Link:- https://XXXXXXXXXXXXX/6525xxxxx276
+
+Path:- KM RolloutsProcess RelatedPost Policy Process
+Process insights shared - Jan’25 
+
+Process Gap 15:  Faster delivery request article on YXXX 
+
+Scenario:- Promised date has been breached and there's a re-promised date and customer has come within the re-promised date for faster delivery.
+
+Problem Statement: “if the customer is asking for a priority delivery when the CPD is re-promised. Promised date has been breached and there's a re-promised date and customer has come within the re-promised date for faster delivery. we do not have any article for the same.
+
+
+Suggestion- We need clarification between 2 articles "Process - Knowledge Pills > Delay in Delivery/Shipping: Promise date breached > Promise date changed: Delivery never attempted" & "Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm), Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (After 4 pm)“As Both the articles are clashing with each other
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/66166xxxxx549f
+
+Path:-  Process - Knowledge Pills > Status Check: Promise Date not breached > Faster delivery request > Order wanted before or after ‘Promise date’ (Shipped)
+Process insights shared - Jan’25 
+
+Process Gap 16:  Order Not OFD on Promise Date on YXXX 
+
+Scenario:- in the article “Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm).”  In Step 2, it mentions “At Delivery Hub.
+
+Problem Statement:  In the article “Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm).”  In Step 2, it mentions “At Delivery Hub,” which is not required, as the following steps already provide details for “Order not OFD and has also not reached the hub.” This creates confusion for both agents and QAs regarding which guideline to follow.
+
+Suggestion- Remove the phrase “At Delivery Hub” from the SOP to ensure clarity and proper adherence by the agents.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/6616xxxxxx4549f
+
+Path Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm
+Process insights shared - Jan’25 
+
+Process Gap 17:  Order Not OFD on Promise Date article on YXXX 
+
+Scenario:- In the article “Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm).”In this article no information mention for 3 PL logistic.
+
+Problem Statement:  Below mentioned articles “Process - Knowledge PillsOrder Not OFD on Promise Date Promised Day: Order not OFD (Before 4 pm) & Process - Knowledge PillsOrder Not OFD on Promise Date Promised Day: Order not OFD (After 4 pm)”. Do not contain any info for 3PL so it is very problematic for the agents to share info to the customer when the customer has called on CPD to know the order status for 3PL
+
+Suggestion- Please update the same in the article for the 3 pl Logistic team.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/6xxx4549f
+
+Path Process - Knowledge Pills > Order Not OFD on Promise Date > Promised Day: Order not OFD (Before 4 pm
+Process insights shared - Jan’25 
+
+Process Gap 18:  O2D scenario article on YXXX 
+
+Scenario There is no existing article in the O2D scenario for cases where the product is in hold status.
+
+Problem Statement: As per YXXX Knowledge Pills, we need clarity on what information the agent should share with the customer. An article needs to be added to address this scenario.  We cannot simply follow the article “Process - Knowledge Pills > Status Check: Promise Date not breached > Before Shipping” as the order may either get approved or rejected.
+
+Suggestion- Please Add this SOP on YXXX so that advisor and QA can follow the same.
+
+
+Process insights shared - Jan’25 
+
+Process Gap 19: Return related article
+
+Scenario:- A return is created under “Wait & Replace” or “Wait & Exchange”, and the first product has already been picked up.
+
+Problem Statement:   As there is no existing guideline in place. Scenario: When a return is created under “Wait & Replace” or “Wait & Exchange”, and the first product has already been picked up, the customer may request to cancel the replacement order. As we know, if the agent cancels the order, the customer becomes eligible for a refund, even in cases where only a replacement policy applies. This can impact revenue as the customer gets a refund instead of a replacement.
+
+Suggestion-  A proper SOP is required to ensure consistency and avoid revenue loss in such cases.
+
+
+Process insights shared - Jan’25 
+
+Process Gap 20:  No Return Policy article on YXXX 
+
+Scenario:- Customer has ordered as “No return” category product and the customer claims that the product is Duplicate
+
+Problem Statement:  Currently we do not have any guidelines to follow the same and what action the agent should take to handle “Duplicate product cases”.  If the agent should deny or the agent should escalate.
+
+Suggestion- SOP needs to be updated for the duplicate product scenario in no return policy.
+Link:- https://XXXXXXXXXXXXX/63e23xxxx729
+
+Path KM Rollouts > Process Related > Process for No Returns/Non-Returnable Products
+Process insights shared - Jan’25 
+
+Process Gap 21:   Troubleshooting Guides YXXX 
+
+Scenario:- YXXX gap in the below mentioned PATH. Troubleshooting Guides => Audio Devices => TWS [True Wireless Stereo] => Noise TWS Brand Generic guide => Sound Issues: Low Sound / No Sound / Low Bass / Distorted Sound => Low Sound / Low Bass / Distorted Sound => No For low sound issues in noise TWS earbuds.
+
+Problem Statement:  When selecting the "NO" option at the bottom, YXXX guides us to route the customer to ASC. However, the product page for TWS earbuds only shows a 7-day replacement policy. Where it is clashing with the policy.
+
+Suggestion-  YXXX article must say if the product has a Service center action policy, then route to ASC, but the product has 7-day replacement policy then a return should be created within the policy. Kindly do the correction.
+
+
+Process insights shared - Jan’25 
+
+Process Gap 22:  Refund Related article on YXXX 
+
+Scenario:- Misleading information in YXXX, specifically in the Process → Knowledge Pills → Refund is Completed → UPI/UPI Wallet → within the SLA section for non-void transactions. The current instruction states:
+
+Problem Statement:   The current instruction states:  "Step 2: Log in to the UPI app, go to transaction history, and check for credit transactions from {Refund initiated date} till {refund promise SLA}."  However, this creates confusion for agents. For example, if a customer contacts support on February 23rd and the refund promise SLA is February 25th, it is impossible for the customer to filter transactions for a future date in the UPI app
+
+Suggestion-  The guideline should be revised to reflect practical steps that customers can follow while checking their refund status
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/6616xxxx549f
+
+Path Knowledge Pills → Refund is Completed → UPI/UPI Wallet → within the SLA section for non-void transactions.
+Process insights shared - Jan’25 
+
+Process Gap 23:  Amount Debited Order Not Confirmed on YXXX 
+
+Scenario:-  The information provided in YXXX article is not accurate. Process - Knowledge Pills > Amount Debited Order Not Confirmed > Flipkart Order > Amount Debited Order Not Confirmed (Order reflecting on SA)Payment Pending/Success and order not confirmed > Beyond 2 hours > Unable to connect with CT > Unable to connect with CT
+
+Problem Statement:  Article says “Share the refund details by clicking on the Suggested Issue >> Refund Status Related on Smart Assist and share the refund details and refund TAT” But it is not clear here if the agent is supposed to follow the knowledge pill or OLD SOP. so, it is confusing for the Agent and for the QA as well.
+
+Suggestion- Kindly update the information for the belter clarity.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/6656xxxxc70c0c
+
+Path Process - Knowledge Pills > Amount Debited Order Not Confirmed > Flipkart Order > Amount Debited Order Not Confirmed (Order reflecting on SA)Payment Pending/Success and order not confirmed > Beyond 2 hours > Unable to connect with CT >
+Process insights shared - Jan’25 
+
+Process Gap 24:  Return Guidelines 2.0 on YXXX 
+
+Scenario:-   As per the article “Inform the customer: Items less than the MOQ cannot be returned – the entire order has to be returned.
+
+Problem Statement:  the Return Guidelines should explicitly mention that if a product falls under the MOQ category, the agent must create a return request for all items purchased under that MOQ.  Additionally, the SOP should be updated to clarify what return reason the agent should select for the remaining items in such cases.  For example, if a customer purchases a T-shirt with a Minimum Order Quantity of 4 and reports an issue with just one item, the agent will initiate the return based on the VOC (Voice of Customer) for that single item. However, as per SOP, the entire order must be returned, so there needs to be clear guidance on what return reason should be selected for the other three T-shirts in the order.
+
+ Suggestion- Kindly update the SOP for the  better clarity.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/66xx597e5e5xxxd6
+
+Path Product Purchase Queries >> Flipkart/Shopsy >> Minimum Order Quantity >> Partially Return MOQ Order
+Process insights shared - Jan’25 
+
+Process Gap 24:  Cancellation Knowledge Pills article on YXXX 
+
+Scenario:-   There is no SOP for handling reshipped products when the original order was canceled due to Aged Beyond Limit and subsequently rejected due to No Intent Confirmation.
+
+Problem Statement:  The SOP does not specify the rejection reason for such cases So, my observation is this: I need clarification on the Experience Recovery (ER) process for cases where a product was canceled due to Aged Beyond Limit, and the reshipped product was also rejected due to No Intent Confirmation.  Should ER be provided in this scenario? If an agent pitches ER, would it be considered FATAL? If an agent does not pitch ER, would that be FATAL as well?
+
+ Suggestion- Kindly update the SOP for the  better clarity.
+
+Link:- https://XXXXXXXXXXXXX/#/XXXX/6698xxx5xxxaba8c
+
+Path Knowledge Pills - Cancellation Knowledge Pills - Customer Not Aware of Cancellation
+Process insights shared - Jan’25 
+
+Process Gap 25:   Tech Visit Related article on YXXX 
+
+Scenario:-   There is no mention of tech visit fake updates in the large vertical section.
+
+Problem Statement: In real-time scenarios, if a customer reports an issue where the technician did not visit but updated a fake visit, agents are unable to assist effectively due to the absence of a clear SOP in YXXX. 
+
+Suggestion- Kindly update the documentation to include guidance on handling such cases? This will ensure agents are better equipped to assist customers in these situations.
+
+Link:- https://XXXXXXXXXXXXX/651cxxxxx41f
+
+Path  Large Vertical Tech Visit/Installation and Uninstallation Process/Queries
+Process insights shared - Jan’25 
+
+Process Gap 26:   ASC LINK on YXXX 
+
+Scenario:-Incorrect details on ASC locator.
+
+Problem Statement: In real-time scenarios, The Frontech support link in the ASC locator is incorrect, which is causing issues for customers. Since agents cannot share external links,
+
+Suggestion- Kindly update it with the correct one if possible.
+
+
+Process insights shared - Jan’25 
+This document is for demonstration purposes only and contains anonymized insights based on publicly available information or hypothetical examples. Which applies on all slides
+
+27
+
+⚠️ Disclaimer
+This document is intended solely for demonstration purposes related to process gap identification methodologies used in quality management consulting.
+All internal names, links, and sensitive data have been fully anonymized or masked.
+The scenarios shown are generic examples inspired by real-world industry challenges and do NOT represent or disclose any proprietary or confidential Standard Operating Procedures (SOPs) of any organization.
+No customer data, intellectual property, or private business strategies are shared.
+This is a demonstration of professional capability and methodology, not a disclosure of internal processes from any former employer.If any issue please let us know we will remove the part, mail at contactus@solvextra.com
+
+
+This document is for demonstration purposes only and contains anonymized insights based on publicly available information or hypothetical examples. Which applies on all slides
+
+28
